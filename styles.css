@@ -24,7 +24,7 @@ header {
   justify-content: center;
   align-items: center;
   content: fill-content;
-  min-width: 100vh;
+  max-width: 100%;
 }
 
 header a {
@@ -39,21 +39,16 @@ header a {
   justify-content: center;
   text-align: center;
   padding-top: 4em;
-  min-width: 100vh;
-}
-
-.firstDiv-info {
-  margin-top: auto;
-  font-size: 2rem;
+  max-width: 100%;
 }
 
 .firstDiv-info h1 {
-  margin-bottom: 25px;
+  margin-bottom: 0.5em;
   color: #4c545d;
 }
 
 .firstDiv-info p {
-  margin-bottom: 90px;
+  margin-bottom: 3em;
   color: #9fabb2;
 }
 
@@ -69,7 +64,7 @@ header a {
 
 .button-ios {
   display: inline-block;
-  padding: 15px 60px;
+  padding: 1.5em 5em;
   border-radius: 40px;
   background-color: #26baa4;
   color: white;
@@ -86,7 +81,7 @@ header a {
 
 .button-mac {
   display: inline-block;
-  padding: 15px 60px;
+  padding: 1.5em 5em;
   border-radius: 40px;
   background-color: #6173ff;
   color: white;
@@ -108,7 +103,7 @@ header a {
   justify-content: center;
   text-align: center;
   padding-top: 20em;
-  min-width: 100vh;
+  max-width: 100%;
 }
 
 .secondDiv-info {
@@ -134,7 +129,7 @@ header a {
   align-items: center;
   text-align: center;
   padding-top: 10em;
-  min-width: 100vh;
+  max-width: 100%;
   gap: 10%;
 }
 
@@ -169,7 +164,7 @@ header a {
   align-items: center;
   text-align: center;
   padding-top: 10em;
-  min-width: 100vh;
+  max-width: 100%;
 }
 
 .forthDiv-info {
@@ -194,10 +189,11 @@ header a {
   justify-content: center;
   align-items: center;
   padding-top: 10em;
+  max-width: 100%;
 }
 
 .fifthDiv img {
-  width: 800px;
+  width: 90em;
 }
 
 /* SECTION 6 */
@@ -208,7 +204,7 @@ header a {
   align-items: center;
   text-align: center;
   padding-top: 10em;
-  min-width: 100vh;
+  max-width: 100%;
   margin-bottom: 5%;
 }
 
@@ -219,7 +215,7 @@ header a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-width: 100vh;
+  max-width: 100%;
   padding: 0 25em;
   gap: 5%;
 }
@@ -229,12 +225,12 @@ header a {
 }
 
 .seventhDiv-info h1 {
-  margin-bottom: 25px;
+  margin-bottom: 2em;
   color: #4c545d;
 }
 
 .seventhDiv-info p {
-  margin-bottom: 90px;
+  margin-bottom: 9em;
   color: #9fabb2;
 }
 
@@ -250,7 +246,7 @@ header a {
   align-items: center;
   text-align: center;
   padding-top: 10em;
-  min-width: 100vh;
+  max-width: 100%;
   gap: 8%;
 }
 
@@ -262,7 +258,7 @@ header a {
   justify-content: center;
   text-align: center;
   padding-top: 4em;
-  min-width: 100vh;
+  max-width: 100%;
 }
 
 .nineDiv-info {
@@ -301,7 +297,7 @@ footer {
   padding: 5em 0;
   align-items: center;
   justify-content: center;
-  min-width: 100vh;
+  max-width: 100%;
 }
 
 .footer-photo {
@@ -340,14 +336,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 25%;
+  margin-right: 20%;
   gap: 50%;
 }
 
 /* #MEDIA QUERIES */
 
 /* laptop View */
-@media only screen and (min-width: 970px) and (max-width: 1024px) {
+@media only screen and (min-width: 971px) and (max-width: 1024px) {
   .firstDiv-info {
     margin-top: auto;
     font-size: 2rem;
@@ -367,7 +363,7 @@ footer {
 
   .seventhDiv {
     flex-direction: row;
-    gap: 50%;
+    gap: 10%;
   }
 
   .eightDiv {
@@ -377,7 +373,7 @@ footer {
   }
 
   .eightDiv-info {
-    padding-bottom: 80px;
+    padding-bottom: 8em;
   }
 
   .footer-box {
@@ -417,7 +413,7 @@ footer {
   }
 
   .eightDiv-info {
-    padding-bottom: 80px;
+    padding-bottom: 8em;
   }
 
   footer {
@@ -435,8 +431,7 @@ footer {
 /* Mobile View */
 @media only screen and (max-width: 480px) {
   .firstDiv-info {
-    margin-top: auto;
-    padding: 0 10em;
+    padding: 0 5em;
     font-size: 2.5rem;
   }
 
@@ -446,7 +441,7 @@ footer {
 
   .button-ios,
   .button-mac {
-    padding: 30px 150px;
+    padding: 1em 4em;
     font-size: 2.5rem;
   }
 
@@ -471,7 +466,7 @@ footer {
   }
 
   .eightDiv-info {
-    padding-bottom: 80px;
+    padding-bottom: 8em;
   }
 
   .nineDiv-Button {
@@ -501,16 +496,24 @@ footer {
   }
 
   .footer-photo img {
-    width: 100px;
-    height: 100px;
+    width: 10em;
+    height: 10em;
   }
 
   .footer-icon {
     margin-top: 4%;
-    padding-left: 15em;
+    padding-left: 10em;
   }
 
   .footer-icon img {
-    width: 50px;
+    width: 5em;
+  }
+
+  .thirdDiv img {
+    width: 50em;
+  }
+
+  .fifthDiv img {
+    width: 60em;
   }
 }
